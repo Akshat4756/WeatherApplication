@@ -92,7 +92,7 @@ setwIcon("/images/cloud.png")
             <button className='btnSearch' onClick={search}><CiSearch/></button>
         </div>
           <div className='imageBox'>
-            <img src={wIcon} className='imgMain'></img>
+            <img src={wIcon} alt="imgMain" className='imgMain'></img>
             <div className='weatherTemp'>
             24°c
             </div>
