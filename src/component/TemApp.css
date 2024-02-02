@@ -1,0 +1,182 @@
+/* .box{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("/public/images/nature.jpg");
+    width: 100vw;
+    margin:20px 14px;
+    border-radius: 20px;
+} */
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px 0px;
+    /* height: 552px; */
+    align-items: center;
+    background-color: transparent;
+    border-radius: 20px;
+    /* opacity: 0.5 ; */
+}
+.boxImage{
+    width: 394px;
+    margin:20px 0px;
+    border-radius: 20px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boxMain{
+    color:white;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-image: url("/public/images/eveningwomen.jpg"); */
+    background-color: rgba(0, 0,0, 0.2);
+    border: 1px solid #FFFF;
+    /* color:black; */
+    /* opacity: 0.6; */
+    width: 394px;
+    margin:20px 0px;
+    border-radius: 20px;
+}
+.searchBox{
+   width:fit-content;
+   margin-top: 20px;
+   /* background-color: white; */
+   /* border: 2px solid #FFFF; */
+    display: flex;
+    opacity: 1;
+    border-radius: 25px;
+    margin-top: 20px;
+    width: fit-content;
+    justify-content: center;
+    padding: 14px 16px;
+    /* box-shadow: 0px 5px 5px #E3DDE5; */
+    transition: box-shadow 0.5s ease-in-out;
+}
+/* .searchBox:hover{
+    box-shadow: 0px 5px 5px #E3DDE5;
+} */
+
+.searchBox input{
+    padding: 14px 16px;
+    background-color: transparent;
+    background-color: rgba(0, 0,0, 0.1);
+    justify-content: center;
+    width: 300px;
+    height: 60px;
+    font-size: 26px;
+    font-weight: 100;
+    outline: none;
+    border-radius: 25px;
+    opacity: 1;
+    border-style: none;
+    color:white;
+    /* transition: box-shadow 0.5s ease-in-out; */
+}
+.searchBox input::placeholder{
+    color:white;
+    font-weight:400;
+    font-size: 20px;
+}
+.searchBox input:focus{
+    justify-content: center;
+    outline: none;
+    opacity: 1;
+    color:white;
+    border-style: none;
+   
+}
+.searchBox input::-webkit-search-cancel-button{
+    position:relative;
+    right:20px;  
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23777'><path d='M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z'/></svg>");
+}
+.icon{
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+}
+.boxDetails{
+    /* height: 200px; */
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    border-radius: 20px;
+    padding: 14px 16px;
+    margin: 20px 20px;
+    border-radius: 25px;
+    background-color: rgba(0, 0,0, 0.1);
+}
+.imageBox{
+    /* height: 200px; */
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    border-radius: 20px;
+    padding: 14px 16px;
+    margin: 20px 20px;
+    border-radius: 25px;
+    background-color: rgba(0, 0,0, 0.1);
+}
+.imgMain{
+    display: flex;
+    justify-content: center;
+    /* height: 200px; */
+    width:250px;
+    border-radius: 20px;
+    
+}
+.btnSearch{
+    color:white;
+    background-color: rgba(0, 0,0, 0.1);
+    border-radius: 20px;
+    border-style: none;
+    width: 50px;
+    font-size: 25px;
+    font-weight: 800;
+    transition: 0.5s ease-in-out;
+}
+.btnSearch:hover{
+    color: black;
+    background-color: white;
+    border-style: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.dataContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.weatherTemp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.element{
+    display: flex;
+    align-items: flex-start;
+    margin:auto;
+    gap:15px;
+}
+.data{
+    font-size: 20px;
+    font-weight: 500;
+    gap:15px;
+}
+.text{
+    font-size: 15px;
+    font-weight: 400;
+}
